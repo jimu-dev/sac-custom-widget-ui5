@@ -1,11 +1,13 @@
 # Introduction
 
 Custom Widget for SAP Analytics Cloud based on UI5 Web Components.
+
 These Custom Widgets expose the properties and events to the Analytic Application similar to UI5 Web Components.
 
 # Getting Started
 
 Upload the json files to your SAP Analytics Cloud.
+
 And then enjoy the Analytic Application with custom widgets!
 
 # Widgets list
