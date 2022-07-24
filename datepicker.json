@@ -12,14 +12,14 @@
     {
       "kind": "main",
       "tag": "jimu-ui5-datepicker",
-      "url": "https://jimu-dev.github.io/sac-custom-widget-ui5/bundle.js",
+      "url": "https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents.bundle-main.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "styling",
       "tag": "jimu-ui5-datepicker-styling",
-      "url": "https://jimu-dev.github.io/sac-custom-widget-ui5/bundle.js",
+      "url": "https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents.bundle-main.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
