@@ -1,16 +1,22 @@
-# sac-custom-widget-ui5
+# Introduction
 
-SAP Analytics Cloud Custom Widget based on UI5 Web Components.
+Custom Widget for SAP Analytics Cloud based on UI5 Web Components.
+These Custom Widgets expose the properties and events to the Analytic Application similar to UI5 Web Components.
 
-### JimuUI5DatePicker
+# Getting Started
 
-A Custom Widget which wrapped UI5 DatePicker and DateRangePicker
+Upload the json files to your SAP Analytics Cloud.
+And then enjoy the Analytic Application with custom widgets!
 
-* DatePicker https://sap.github.io/ui5-webcomponents/playground/components/DatePicker/
-* DateRangePicker https://sap.github.io/ui5-webcomponents/playground/components/DateRangePicker/
+# Widgets list
 
-### JimuUI5DateTimePicker
+| Widget | JSON | Wrapped UI5 Web Componens |
+| --- | --- | --- |
+| JimuUI5DatePicker | datepicker.json | DatePicker, DateRangePicker |
+| JimuUI5DateTimePicker | datetimepicker.json | DateTimePicker |
 
-A Custom Widget which wrapped UI5 DateTimePicker
+# Reference
 
-* DateTimePicker https://sap.github.io/ui5-webcomponents/playground/components/DateTimePicker/
+* SAP Analytics Cloud Custom Widget Developer Guide https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/0ac8c6754ff84605a4372468d002f2bf/75311f67527c41638ceb89af9cd8af3e.html?locale=en-US
+* UI5 Web Components https://sap.github.io/ui5-webcomponents/playground/components
+
