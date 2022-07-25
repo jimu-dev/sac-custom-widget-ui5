@@ -6,11 +6,11 @@ These Custom Widgets expose the properties and events to the Analytic Applicatio
 
 # Getting Started
 
-`json` files in this repository. There is only 1 step you should do before using these Custom Widget:
+There is only 1 step you should do before using these Custom Widget:
 
-* Upload the json files to your SAP Analytics Cloud.
+* Upload the `json` files in this repository to your SAP Analytics Cloud.
 
-Then enjoy the Analytic Application with custom widgets!
+Enjoy the Analytic Application with Custom Widget!
 
 All js files are bundled, and depolyed by a global cdn. https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents.bundle-main.js
 
