@@ -12,7 +12,17 @@ There is only 1 step you should do before using these Custom Widget:
 
 Enjoy the Analytic Application with Custom Widget!
 
-All js files are bundled, and depolyed by a global cdn. https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents.bundle-main.js
+
+# Architecture
+
+Custom Widgets are composed by: 
+
+* json file. A manifest file which should be uploaded to SAP Analytics Cloud
+* js file. Implementation JavaScript which is hosted on a gloabal cdn. https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents.bundle-main.js
+
+Here is the high level architecture
+
+![architecture](https://dist.jimuu.dev/sac-jimu/arch.png "architecture")
 
 # Widgets list
 
