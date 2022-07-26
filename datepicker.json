@@ -3,6 +3,7 @@
   "vendor": "Jimu",
   "license": "",
   "id": "com.jimu.sac.ui5.webcomponents.datepicker",
+  "icon": "https://dist.jimuu.dev/sac-jimu/icons/date.png",
   "version": "1.0.0",
   "supportsMobile": true,
   "name": "JimuUI5DatePicker",
