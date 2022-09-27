@@ -1,0 +1,98 @@
+{
+    "eula": "",
+    "vendor": "Jimu",
+    "license": "",
+    "id": "com.jimu.sac.ui5.webcomponents.datepicker",
+    "version": "1.0.1",
+    "supportsMobile": true,
+    "name": "JimuUI5DatePicker",
+    "icon": "https://dist.jimuu.dev/sac-jimu/icons/date.png",
+    "newInstancePrefix": "JimuUI5DatePicker",
+    "description": "A Date Picker widget based on UI5 web components. Integrated the capabilities of DatePicker, DateTimePicker, DateRangePicker in one.",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "jimu-ui5-datepicker",
+            "url": "https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents-1.0.1.js",
+            "integrity": "",
+            "ignoreIntegrity": true
+        },
+        {
+            "kind": "styling",
+            "tag": "jimu-ui5-datepicker-styling",
+            "url": "https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents-1.0.1.js",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {
+        "width": {
+            "type": "integer",
+            "default": 256
+        },
+        "height": {
+            "type": "integer",
+            "default": 32
+        },
+        "type": {
+            "type": "string",
+            "default": "datePicker",
+            "description": "The type of widget. Enum: datePicker, dateRangePicker, dateTimePicker"
+        },
+        "value": {
+            "type": "string",
+            "description": "equivalent to property in ui5-webcomponents"
+        },
+        "formatPattern": {
+            "type": "string",
+            "description": "equivalent to property in ui5-webcomponents"
+        },
+        "minDate": {
+            "type": "string",
+            "description": "equivalent to property in ui5-webcomponents"
+        },
+        "maxDate": {
+            "type": "string",
+            "description": "equivalent to property in ui5-webcomponents"
+        }
+    },
+    "methods": {
+        "setValue": {
+            "description": "Sets the value",
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "string",
+                    "description": ""
+                }
+            ],
+            "body": "this.value = value;"
+        },
+        "getValue": {
+            "returnType": "string",
+            "description": "Returns the value",
+            "parameters": [],
+            "body": "return this.value;"
+        },
+        "getDateValue": {
+            "returnType": "Date",
+            "description": "Returns the date value",
+            "parameters": []
+        },
+        "getStartDateValue": {
+            "returnType": "Date",
+            "description": "Returns the start date value. When type is dateRangePicker",
+            "parameters": []
+        },
+        "getEndDateValue": {
+            "returnType": "Date",
+            "description": "Returns the end date value. When type is dateRangePicker",
+            "parameters": []
+        }
+    },
+    "events": {
+        "onChange": {
+            "description": "equivalent to event in ui5-webcomponents"
+        }
+    }
+}

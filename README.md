@@ -1,41 +1,84 @@
 # Introduction
 
-Custom Widget for SAP Analytics Cloud based on UI5 Web Components.
+**Jimu UI5 Widgets** is a set of Custom Widget for [SAP Analytics Cloud](https://www.sap.com/products/technology-platform/cloud-analytics.html).
+These Widgets wrap the implementation of [UI5 Web Components](https://sap.github.io/ui5-webcomponents/).
+These Widgets expose the properties and events to the SAP Analytics Cloud similar to UI5 Web Components.
 
-These Custom Widgets expose the properties and events to the Analytic Application similar to UI5 Web Components.
+List of Widgets in latest version 1.0.0
+
+| Jimu UI5 Widget | UI5 Web Component |
+| --- | --- |
+| JimuUI5DatePicker | DatePicker |
+| | DateRangePicker |
+| | DateTimePicker |
 
 # Getting Started
 
-There is only 1 step you should do before using these Custom Widget:
+**Upload** the `json` files in this repository to your SAP Analytics Cloud. You can get json files from this github repository, or download directly in [Widgets](#Widgets) Section.
 
-* Upload the `json` files in this repository to your SAP Analytics Cloud.
+![upload](https://dist.jimuu.dev/sac-jimu/wiki/upload.png "upload")
 
-Enjoy the Analytic Application with Custom Widget!
+**Enjoy** the Analytic Application with Jimu UI5 Widgets !
 
+![canvas](https://dist.jimuu.dev/sac-jimu/wiki/canvas.png "canvas")
 
 # Architecture
 
-Custom Widgets are composed by: 
+### Implementation
 
-* json file. A manifest file which should be uploaded to SAP Analytics Cloud
-* js file. Implementation JavaScript which is hosted on a gloabal cdn. https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents.bundle-main.js
+![implementation](https://dist.jimuu.dev/sac-jimu/wiki/canvas.png "implementation")
 
-Here is the high level architecture
+Version of UI5 Web Components is [1.7.1](https://www.npmjs.com/package/@ui5/webcomponents/v/1.7.1)
 
-![architecture](https://dist.jimuu.dev/sac-jimu/arch.png "architecture")
+### Deployment
 
-# Widgets list
+Jimu UI5 Widgets is deployed on a global CDN powered by Alibaba Cloud.
+The url and content is fixed, will not change forever.
 
-| Widget | JSON | Wrapped UI5 Web Componens |
-| --- | --- | --- |
-| JimuUI5DatePicker | datepicker.json | DatePicker, DateRangePicker |
-| JimuUI5DateTimePicker | datetimepicker.json | DateTimePicker |
+Released Versions
 
-# Reference
 
-* [SAP Analytics Cloud Custom Widget Developer Guide](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/0ac8c6754ff84605a4372468d002f2bf/75311f67527c41638ceb89af9cd8af3e.html?locale=en-US)
-* [UI5 Web Components](https://sap.github.io/ui5-webcomponents/playground/components)
+* 1.0.0 https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents-1.0.0.js
+
+![deployment](https://dist.jimuu.dev/sac-jimu/wiki/canvas.png "deployment")
+
+# Widgets
+
+## JimuUI5DatePicker
+
+A Date Picker widget based on UI5 web components. Integrated the capabilities of DatePicker, DateTimePicker, DateRangePicker in one.
+
+### Install
+
+<https://dist.jimuu.dev/sac-jimu/jimu-ui5-datepicker-1.0.1.json>
+
+### Properties
+
+| property | type | default | description |
+| --- | --- | --- | --- |
+| width | integer | 256 |  |
+| height | integer | 32 |  |
+| type | string | datePicker | The type of widget. Enum: datePicker, dateRangePicker, dateTimePicker |
+| value | string |  | equivalent to property in ui5-webcomponents |
+| formatPattern | string |  | equivalent to property in ui5-webcomponents |
+| minDate | string |  | equivalent to property in ui5-webcomponents |
+| maxDate | string |  | equivalent to property in ui5-webcomponents |
+### Methods
+
+| method | params | type | description |
+| --- | --- | --- | --- |
+| setValue |  |  | Sets the value |
+| | value | string |  |
+| getValue |  | string | Returns the value |
+| getDateValue |  | Date | Returns the date value |
+| getStartDateValue |  | Date | Returns the start date value. When type is dateRangePicker |
+| getEndDateValue |  | Date | Returns the end date value. When type is dateRangePicker |
+### Events
+
+| event | description |
+| --- | --- |
+| onChange | equivalent to event in ui5-webcomponents |
 
 # About Us
 
-Contact us by email support@jimuu.dev
+Contact us by email <support@jimuu.dev>
