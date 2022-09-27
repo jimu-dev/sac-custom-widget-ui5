@@ -14,14 +14,14 @@
             "kind": "main",
             "tag": "jimu-ui5-datepicker",
             "url": "https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents-1.0.0.js",
-            "integrity": "sha256-eBThZJl7HoWFvu0+dZwUmtesxAV3Cz5gukjjyzN4IkI=",
+            "integrity": "sha256-+5o03VDATke5mxEoNpGiveTtWP63T1beHCwJZ8rVbvc=",
             "ignoreIntegrity": false
         },
         {
             "kind": "styling",
             "tag": "jimu-ui5-datepicker-styling",
             "url": "https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents-1.0.0.js",
-            "integrity": "sha256-eBThZJl7HoWFvu0+dZwUmtesxAV3Cz5gukjjyzN4IkI=",
+            "integrity": "sha256-+5o03VDATke5mxEoNpGiveTtWP63T1beHCwJZ8rVbvc=",
             "ignoreIntegrity": false
         }
     ],
