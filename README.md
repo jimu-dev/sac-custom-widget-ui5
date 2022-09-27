@@ -26,7 +26,7 @@ List of Widgets in latest version 1.0.0
 
 ### Implementation
 
-![implementation](https://dist.jimuu.dev/sac-jimu/wiki/canvas.png "implementation")
+![implementation](https://dist.jimuu.dev/sac-jimu/wiki/architecture-Implementation.jpg "implementation")
 
 Version of UI5 Web Components is [1.7.1](https://www.npmjs.com/package/@ui5/webcomponents/v/1.7.1)
 
@@ -40,7 +40,7 @@ Released Versions
 
 * 1.0.0 https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents-1.0.0.js
 
-![deployment](https://dist.jimuu.dev/sac-jimu/wiki/canvas.png "deployment")
+![deployment](https://dist.jimuu.dev/sac-jimu/wiki/architecture-Deployment.jpg "deployment")
 
 # Widgets
 
