@@ -50,7 +50,7 @@ A Date Picker widget based on UI5 web components. Integrated the capabilities of
 
 ### Install
 
-<https://dist.jimuu.dev/sac-jimu/jimu-ui5-datepicker-1.0.1.json>
+<https://dist.jimuu.dev/sac-jimu/jimu-ui5-datepicker-1.0.0.json>
 
 ### Properties
 

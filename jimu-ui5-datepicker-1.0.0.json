@@ -3,7 +3,7 @@
     "vendor": "Jimu",
     "license": "",
     "id": "com.jimu.sac.ui5.webcomponents.datepicker",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "supportsMobile": true,
     "name": "JimuUI5DatePicker",
     "icon": "https://dist.jimuu.dev/sac-jimu/icons/date.png",
@@ -13,16 +13,16 @@
         {
             "kind": "main",
             "tag": "jimu-ui5-datepicker",
-            "url": "https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents-1.0.1.js",
-            "integrity": "",
-            "ignoreIntegrity": true
+            "url": "https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents-1.0.0.js",
+            "integrity": "sha256-eBThZJl7HoWFvu0+dZwUmtesxAV3Cz5gukjjyzN4IkI=",
+            "ignoreIntegrity": false
         },
         {
             "kind": "styling",
             "tag": "jimu-ui5-datepicker-styling",
-            "url": "https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents-1.0.1.js",
-            "integrity": "",
-            "ignoreIntegrity": true
+            "url": "https://dist.jimuu.dev/sac-jimu/jimu-ui5-webcomponents-1.0.0.js",
+            "integrity": "sha256-eBThZJl7HoWFvu0+dZwUmtesxAV3Cz5gukjjyzN4IkI=",
+            "ignoreIntegrity": false
         }
     ],
     "properties": {
